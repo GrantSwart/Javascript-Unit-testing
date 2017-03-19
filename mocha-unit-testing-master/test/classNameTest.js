@@ -31,4 +31,14 @@ describe('addClass', function() {
     var classes = element.className.split(' ');
     assert.equal(classes[1], 'new-class');
   });
+	
+ 
+	
+});
+
+describe('Test concatenate', function(){
+it('should add two strings together', function() {
+	result = concatenate("one","two");
+assert.equal("onetwo", result);
+});
 });

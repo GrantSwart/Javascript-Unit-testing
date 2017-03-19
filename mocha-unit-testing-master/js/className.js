@@ -12,6 +12,11 @@ function addClass(el, newClass) {
   el.className += newClass;
 }
 
+
+function concatenate(one,two){	
+return one + two;
+}
+
 // Node Version
 // module.exports = {
 //   addClass: function(el, newClass) {
@@ -27,3 +32,6 @@ function addClass(el, newClass) {
 //     el.className += newClass;
 //   }
 // }
+
+
+
