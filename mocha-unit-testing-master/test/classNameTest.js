@@ -36,9 +36,3 @@ describe('addClass', function() {
 	
 });
 
-describe('Concatenate method test', function(){
-it('Two strings should be added together in using concatenate function', function() {
-result = concatenate("one","two");
-assert.equal("onetwo", result);
-});
-});
