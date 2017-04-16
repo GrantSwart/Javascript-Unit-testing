@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Salary Calculator">
+    <meta name="author" content="Wejgomi">
+
+    <title>Guessing Game - Styled!</title>
+
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="mystyle.css" rel="stylesheet">
+  </head>
+
+  <body>
+      <div class="jumbotron">
+      <h1>Salary Calculator</h1>
+      <p><b><center>Input your annual salary to calculate the tax</center></b></p>
+    <form>
+        <p><center><input type="number" id="salary"/></center></p>
+    </form>
+          <p><input class="btn btn-lg btn-success" type="button" value="Calculate" id="submit"></p></input>
+    <div id="tax_values"></div>
+      <table border="1" align="center">
+	  <tr><td>Gross Salary</td><td><div id="Salary">0</div></td></tr>
+	  <tr><td>Tax Free Allowance</td><td><div id="TaxFree">0</div></td></tr>
+	  <tr><td>Tax at 20%</td><td><div id="Tax20">0</div></td></tr>
+	  <tr><td>Tax at 40%</td><td><div id="Tax40">0</div></td></tr>
+	  <tr><td>Net Salary</td><td><div id="NetSalary">0</div></td></tr>
+	  </table>
+	  
+    <script src="taxcalculator_refactored.js"></script>
+      </div>
+  </body>
+
+</html>
