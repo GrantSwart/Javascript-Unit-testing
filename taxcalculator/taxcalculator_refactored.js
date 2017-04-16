@@ -18,7 +18,7 @@ function main(){
 	var NetSalary = 0;
 	
 	//PROCESS: Pass in 5 parameters to calculate tax 
-//	calculatetax(GrossSalary,taxFreeAllowance, taxAt20,taxAt40, NetSalary);
+    //	calculatetax(GrossSalary,taxFreeAllowance, taxAt20,taxAt40, NetSalary);
 	taxAt20 = calculateTaxAt20(GrossSalary);
 	taxAt40 = calculateTaxAt40(GrossSalary);
 	NetSalary = calculateNetSalary(GrossSalary, taxAt20, taxAt40, NetSalary); 
