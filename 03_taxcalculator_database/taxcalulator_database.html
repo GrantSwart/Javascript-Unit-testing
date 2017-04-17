@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Salary Calculator">
+    <meta name="author" content="Wejgomi">
+
+    <title>Tax Calculator</title>
+
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/mystyle.css" rel="stylesheet">
+  </head>
+
+  <body>
+      <div class="jumbotron">
+      <h1>Salary Calculator</h1>
+      <p><b><center>Input your annual salary to calculate the tax</center></b></p>
+    <form>
+        <p><center>Name: <input type="text" id="name"/></center></p>
+        <p><center>Year: <input type="number" id="year"/></center></p>
+        <p><center>Salary: <input type="number" id="salary"/></center></p>
+    </form>
+          <p><input class="btn btn-lg btn-success" type="button" value="Calculate" id="submit"></p></input>
+    <div id="tax_values">
+	  <table border='1' align="center"> 
+	  <tr><td>Name:</td><td><div id="FName"></div></td></tr>
+	  <tr><td>Year:</td><td><div id="FYear"></div></td></tr>
+	  <tr><td>Gross Salary:</td><td><div id="Salary"></div></td></tr>
+	  <tr><td>Tax Free Allowance:</td><td><div id="TaxFree"></div></td></tr>
+	  <tr><td>Tax at 20%:</td><td><div id="Tax20"></div></td></tr>
+	  <tr><td>Tax at 40%:</td><td><div id="Tax40"></div></td></tr>
+	  <tr><td>Total Tax:</td><td><div id="TotalTax"></div></td></tr>
+	  <tr><td>Net Salary:</td><td><div id="NetSalary"></div></td></tr>
+	  </table>
+	</div>
+     
+	  
+	  <div id="status"></div>
+	  <div id="status2"></div>
+	  
+	<script src="js/addrecord.js"></script>
+    <script src="js/taxcalculator.js"></script>
+
+    
+	  </div>
+  </body>
+
+</html>
